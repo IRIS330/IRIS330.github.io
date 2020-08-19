@@ -1,73 +1,77 @@
-# Forty - Jekyll Theme
+# <div align="center">White</div>
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+<p align="center">
+一款在极简和个性之间徘徊的Hexo主题
+</p>
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+![](https://cdn.jsdelivr.net/gh/fushaolei/img2/20200726101450.png)
 
-# How to Use
+## [点此查看👉主题配置文档](https://sorryfu.top/2020/08/09/doc-white-configration/)
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+![Github stars](https://img.shields.io/github/stars/FuShaoLei/hexo-theme-white.svg)
+![Github forks](https://img.shields.io/github/forks/FuShaoLei/hexo-theme-white.svg)
 
-- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Fork this repository and create a branch named `gh-pages`, then start editing the `_config.yml` file.
+欢迎加入qq群：932539659 和我交流
 
-# Added Features
+## 示例
 
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
+- [Sorryfu](https://sorryfu.top/)
 
-# Issues
+- [清风徐来](https://www.txca.ga/)
 
-If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/forty-jekyll-theme) and I will be more than happy to help!
+- [大魔头闪电](https://Fyljp.Me)
 
-Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/forty-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/forty-jekyll-theme@incoming.gitlab.com).
+### [👉点此申请加入示例](https://github.com/FuShaoLei/hexo-theme-white/issues/12)
 
-The GitHub repository is simply a mirror of the GitLab repository.
+## 特性
 
-# Credits
+- [x] 可自定义样式
+- [x] 内置`valine` , `gitalk`,`livere` 评论系统
+- [x] **全局搜索**
+- [x] 移动端适配
+- [x] 分类页面
+- [x] 移动端适配
+- [x] 可选择文章索引的位置在上方或者右侧
+- [x] **图片懒加载**
+- [x] 打开速度优化
+- [x] 可自定义配色
+- [x] 文档齐全
+- [x] 平滑升级
+- [x] menu自动分类
+- [x] 丰富主页的内容
+- [x] 为内容选择其他字体
+- [x] 修复sort的显示效果
+- [x] 增加图片模式
+- [ ] 用rem作为单位重写样式
+- [ ] 使gitalk可使用表情包（至少得有阿鲁表情包）
+- [ ] 以加载更多 来代替 上一页和下一页 
+- [ ] 文章wiki模式
 
-Original README from HTML5 UP:
+## 感谢
 
-```
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+### 界面样式参考
+
+本主题在创作过程中参考了好多大佬的设计，下面一一举例
+
+1. [typora的support界面](http://support.typora.io/) ： 灵感来源，激发我做了初版的white主题，simple模式参考
+2. [canisminor](https://canisminor.cc/hola)：大佬的博客，模仿了他的文章的样式，和img模式的样式
+3. [hexo的St. Andrews主题](https://sharvaridesai.gitlab.io/hexo-theme-standrews/)：参考了布局，还有文章题目和日期的排版方式
+4. [xiaochunjimmy大佬的博客](https://www.zhangxiaochun.com/)：免费开源图标remixicon的作者👉[官网指路](https://remixicon.com/) ，参考了他页脚的设计
+
+另外，整体都是用了flex布局，开发过程中用的google chrome进行开发测试，可能有些浏览器不支持，我也懒得做什么适配了（逃..
+
+### 字体
+
+本主题所使用的字体，都是从[字体天下](http://www.fonts.net.cn/)那边下载的，在此也表示感谢，感谢字体的原作者 ！
+
+- Gothic： 用于页面logo和menu 以及 文章部分
+- hack-regular：用于代码部分
+- Merriweather：用于数字
 
 
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
+> 如有侵犯到你的权益，请与我联系 ！ 
 
 
-Credits:
+## Stargazers over time
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
-```
-
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+[![Stargazers over time](https://starchart.cc/FuShaoLei/hexo-theme-white.svg)](https://starchart.cc/FuShaoLei/hexo-theme-white)
